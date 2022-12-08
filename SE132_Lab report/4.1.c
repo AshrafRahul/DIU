@@ -36,7 +36,7 @@ printf("Enter An Element From Given Array : ");
 scanf("%d",&x);
 int binary = binarySearch(arr, 0, n - 1, x);
 int linear = LinearSearch(arr, n, x);
-printf("Element Found through Binary Search In %d Steps",binary);
+printf("Element Found through Binary Search In %d Steps\n",binary);
 printf("Element Found through Linear Search In %d Steps",linear);
 printf("\n");
 if (linear >= binary)
